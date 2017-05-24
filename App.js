@@ -10,11 +10,11 @@ export default class App extends React.Component {
 
     _handleButtonPress = async () => {
 
-        // let result = await takeAndUploadPhotoAsync();
+        let result = await takeAndUploadPhotoAsync();
+        console.log('asd'+JSON.stringify( result))
+
         Alert.alert(
-            'Button pressed!',
-            'You did it!',
-            JSON.stringify(await takeAndUploadPhotoAsync())
+            'Its a '+JSON.parse(result._bodyInit).responses[0].labelAnnotations[0].description+'!'
         );
     };
 
@@ -28,7 +28,7 @@ export default class App extends React.Component {
 
                 <Text style={styles.paragraph}>
                     Change code in the editor and watch it change on your phone!
-                    Save to get a shareable url. You get a new url each time you save.32
+                    Save to get a shareable url. You get a new url each time you save.21
                 </Text>
             </View>
         );
@@ -86,18 +86,18 @@ export default class App extends React.Component {
 async function takeAndUploadPhotoAsync() {
     // Display the camera to the user and wait for them to take a photo or to cancel
     // the action
-    // let result = await ImagePicker.launchCameraAsync({
-    //   allowsEditing: true,
-    //   aspect: [4, 3],
-    // });
+    let result = await ImagePicker.launchCameraAsync({
+      allowsEditing: true,
+      aspect: [4, 3],
+    });
 
-    // if (result.cancelled) {
-    //   return;
-    // }
+    if (result.cancelled) {
+      return;
+    }
 
     // ImagePicker saves the taken photo to disk and returns a local URI to it
-    // let localUri = result.uri;
-    // let filename = localUri.split('/').pop();
+    let localUri = result.uri;
+    let filename = localUri.split('/').pop();
 
     // // Infer the type of the image
     // let match = /\.(\w+)$/.exec(filename);
@@ -108,14 +108,15 @@ async function takeAndUploadPhotoAsync() {
     // Assume "photo" is the name of the form field the server expects
     // formData.append('photo', { uri: localUri, name: filename, type });
 
+    console.log('sadasdsa')
     return await fetch('https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBEaHFEEekV13OtzI9ds3LRBT61-TxD58M', {
         method: 'POST',
-        body: {
+        body: JSON.stringify({
             "requests": [
                 {
                     "image": {
                         "source": {
-                            "imageUri": "https://cloud.google.com/vision/docs/images/ferris-wheel.jpg"
+                            "imageUri": "http://www.blogcdn.com/www.autoblog.com/media/2012/09/lead5-2012-tesla-model-s-fd-1347337015.jpg"
                         }
                     },
                     "features": [
@@ -125,7 +126,7 @@ async function takeAndUploadPhotoAsync() {
                     ]
                 }
             ]
-        }
+        })
     });
 }
 

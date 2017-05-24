@@ -4,7 +4,10 @@
   "private": true,
   "devDependencies": {
     "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
     "babel-preset-flow": "^6.23.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
     "jest-expo": "^0.4.0",
     "react-native-scripts": "0.0.29",
     "react-test-renderer": "16.0.0-alpha.6"
