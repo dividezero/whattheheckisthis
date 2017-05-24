@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_61f055f7b2203583cc390f1a766659f5a9a33626.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_b04fe17cba66c033a01846c487e961ab32abcd1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_eae6ea745f60837e4e3f66ccc244f11dec1e2352.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_847f57410c5b256288d0dd9263a8026378744136.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_d84f180d9d4f25e0e526377b28dc6d69145de374.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_4d31b8d3ccd375fddf7b719b86c0edeba78cd70d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_f06051c26fb152e20420dbc672b797cba8a8aeb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_b85b30e9b173ea727d4baf5d9b41dfb4bb1e96e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_1d187e8eefac02a46caca7c4c26aede671773a31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_2701d2568838929c21cc18acdf97d2351c81bddb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_7c0e2839bcc2c63593a56325d1de19592cf5eebc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_b08f792c40610dad1bae1472fee547160670238c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.4/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_6a8880ae983f3e2767824fc8c479977b55b79aa6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_1df50c4c6344c52b3069c33ff559bcce3a5a3526.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_9eb09db51d05db75ff2a25519bf743aee8c0b793.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_eda392333aef3d8907db07a9ebe773ac5d954f56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/com.drewnoakes/metadata-extractor/2.9.1/53fdf22be10c9d426ec63431c7342895bc642261/metadata-extractor-2.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="53fdf22be10c9d426ec63431c7342895bc642261">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/metadata-extractor-2.9.1_64f440f1a3f6c5ba291e1d4fe3ad1ce44ab71526.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.2/55615fa2582424e38705487d1d3969af8554f637/xmpcore-5.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="55615fa2582424e38705487d1d3969af8554f637">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/xmpcore-5.1.2_9fe243ef9cd6cb1ffc613b21dc211cc3762b7ee0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_8e058a35ed2e84bc821535db13ffcd840f7a83b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_2fd6eb8742bddb81bad550973433de3271cfd413.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="28964a93b5eafbe660a5b51e5964d2e66aa45395">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.43.4_9e473325bf1f6264e740661dafe091ccf6ff5536.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_5f7efac19ea79ee8183a6c1a6b85ccfe374acf61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_248d30845c2970c9d8b3921757745e45d7a29da3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_c1468e5c4aa84246e80041a0e5da72ca00de55e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/whattheheckisthis/react-native-camera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="66cd78e49857db01469aaa1a28d274c9aa424bf5">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/whattheheckisthis-react-native-camera-unspecified_549742f1a141e0b29839fae5024c8c3972f11bd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/core-3.2.1_6aafdfcb8dc18c57199ab79d6a516f45a7d88e3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_dff42661d2ea70fc038cd77704673286a634c992.jar" />
+    </item>
+
+</items>
