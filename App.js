@@ -109,7 +109,7 @@ async function takeAndUploadPhotoAsync() {
     // formData.append('photo', { uri: localUri, name: filename, type });
 
     console.log('sadasdsa')
-    return await fetch('https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBEaHFEEekV13OtzI9ds3LRBT61-TxD58M', {
+    return await fetch('https://vision.googleapis.com/v1/images:annotate?key=', {
         method: 'POST',
         body: JSON.stringify({
             "requests": [
