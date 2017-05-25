@@ -38,7 +38,7 @@ export default class App extends React.Component {
         //options.location = ...
         this.camera.capture({metadata: options})
             .then( (data) => {
-                console.log(data);
+                console.warn(data);
                 // let result = await takeAndUploadPhotoAsync();
                 // console.log('asd'+JSON.stringify( result))
                 //
@@ -100,15 +100,19 @@ async function takeAndUploadPhotoAsync() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: '#ecf0f1',
+        flexDirection: 'row',
     },
-    paragraph: {
-        margin: 24,
-        fontSize: 18,
-        fontWeight: 'bold',
-        textAlign: 'center',
-        color: '#34495e',
+    preview: {
+        flex: 1,
+        justifyContent: 'flex-end',
+        alignItems: 'center'
     },
+    capture: {
+        flex: 0,
+        backgroundColor: '#fff',
+        borderRadius: 5,
+        color: '#000',
+        padding: 10,
+        margin: 40
+    }
 });
