@@ -42,6 +42,8 @@ ADDED from /Users/hazlan/Source/experiments/whattheheckisthis/android/app/src/ma
 		ADDED from /Users/hazlan/Source/experiments/whattheheckisthis/android/app/src/main/AndroidManifest.xml:11:22-78
 uses-sdk
 ADDED from /Users/hazlan/Source/experiments/whattheheckisthis/android/app/src/main/AndroidManifest.xml:13:5-15:41
+MERGED from [whattheheckisthis:react-native-image-resizer:unspecified] /Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/whattheheckisthis/react-native-image-resizer/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [whattheheckisthis:react-native-image-to-base64:unspecified] /Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/whattheheckisthis/react-native-image-to-base64/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [whattheheckisthis:react-native-camera:unspecified] /Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/whattheheckisthis/react-native-camera/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.43.4] /Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43

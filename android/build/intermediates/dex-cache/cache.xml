@@ -84,6 +84,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/whattheheckisthis/react-native-image-to-base64/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d93403a19a02820e8549fa33e591bc06dae2e0c7">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/whattheheckisthis-react-native-image-to-base64-unspecified_a629ad6d2ea7f1dabfdea23e5c79f5b10b675284.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/hazlan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -198,6 +207,15 @@
         revision="23.0.1"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
         <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_5f7efac19ea79ee8183a6c1a6b85ccfe374acf61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/exploded-aar/whattheheckisthis/react-native-image-resizer/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3689da4786d5e3cb4170f06613c39335c59a9e74">
+        <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/whattheheckisthis-react-native-image-resizer-unspecified_67c8818b41c84157e2528545353e0a16985bdf51.jar" />
     </item>
     <item
         is-multidex="false"
