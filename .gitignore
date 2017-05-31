@@ -1,5 +1,5 @@
 node_modules/
 .expo/
 npm-debug.*
-.idea
+.idea/
 .expo-source

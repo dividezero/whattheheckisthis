@@ -25,61 +25,70 @@ export default class App extends React.Component {
     }
 
     takePicture() {
-        const options = {};
-        //options.location = ...
-        this.camera.capture({metadata: options})
-            .then((data) => {
-                this.setState({
-                    loading: true
-                });
+        if(!this.state.loading){
+            console.log('GO'+this.state.loading)
+            const options = {};
+            //options.location = ...
+            this.camera.capture({metadata: options})
+                .then((data) => {
+                    this.setState({
+                        loading: true
+                    });
 
-                ImageResizer.createResizedImage(data.path, 800, 600, 'JPEG', 80).then((resizedImageUri) => {
-                    // resizeImageUri is the URI of the new image that can now be displayed, uploaded...
-                    NativeModules.RNImageToBase64.getBase64String(resizedImageUri, async (err, base64) => {
-                        // Do something with the base64 string
-                        if (err) {
-                            console.log('err')
-                            console.log(err)
-                        }
-                        console.log('base6a42');
-                        let result = await checkForLabels(base64);
-                        console.log(result)
-                        let filteredResult = filterLabelsList(result.responses[0], 0.3);
+                    ImageResizer.createResizedImage(data.path, 800, 600, 'JPEG', 80).then((resizedImageUri) => {
+                        // resizeImageUri is the URI of the new image that can now be displayed, uploaded...
+                        NativeModules.RNImageToBase64.getBase64String(resizedImageUri, async (err, base64) => {
+                            // Do something with the base64 string
+                            if (err) {
+                                console.log('err')
+                                console.log(err)
+                            }
+                            console.log('base6a42');
+                            let result = await checkForLabels(base64);
+                            console.log(result)
+                            let filteredResult = filterLabelsList(result.responses[0], 0.3);
 
-                        let labelString = '';
-                        let count = 1;
-                        if (filteredResult.length > 1) {
-                            labelString = '... or it might be ';
-                            filteredResult.forEach((resLabel) => {
-                                if (count == filteredResult.length) {
-                                    labelString += 'a ' + resLabel.description + '! I\'m pretty sure! Maybe.'
-                                } else if (count == 1) {
+                            let labelString = '';
+                            let count = 1;
+                            if (filteredResult.length > 1) {
+                                labelString = '... or it might be ';
+                                filteredResult.forEach((resLabel) => {
+                                    if (count == filteredResult.length) {
+                                        labelString += 'a ' + resLabel.description + '! I\'m pretty sure! Maybe.'
+                                    } else if (count == 1) {
 
-                                } else {
-                                    labelString += 'a ' + resLabel.description + ' or '
-                                }
-                                count++;
+                                    } else {
+                                        labelString += 'a ' + resLabel.description + ' or '
+                                    }
+                                    count++;
+                                });
+
+                                Alert.alert(
+                                    'Its a ' + result.responses[0].labelAnnotations[0].description + '!',
+                                    labelString
+                                );
+                            } else {
+                                Alert.alert(
+                                    'Its a ' + result.responses[0].labelAnnotations[0].description + '!'
+                                );
+                            }
+
+                            this.setState({
+                                loading: false
                             });
+                        })
 
-                            Alert.alert(
-                                'Its a ' + result.responses[0].labelAnnotations[0].description + '!',
-                                labelString
-                            );
-                        } else {
-                            Alert.alert(
-                                'Its a ' + result.responses[0].labelAnnotations[0].description + '!'
-                            );
-                        }
-                    })
+                    }).catch((err) => {
+                        // Oops, something went wrong. Check that the filename is correct and
+                        // inspect err to get more details.
+                        console.error(err)
+                    });
 
-                }).catch((err) => {
-                    // Oops, something went wrong. Check that the filename is correct and
-                    // inspect err to get more details.
-                    console.error(err)
-                });
-
-            })
-            .catch(err => console.error(err));
+                })
+                .catch(err => console.error(err));
+        }else{
+            console.log('NO GO'+this.state.loading)
+        }
     }
 }
 
