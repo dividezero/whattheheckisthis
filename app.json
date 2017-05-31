@@ -1,5 +1,13 @@
 {
   "expo": {
-    "sdkVersion": "16.0.0"
-  }
+    "sdkVersion": "16.0.0",
+    "ios": {
+      "bundleIdentifier": "whattheheckisthis"
+    },
+    "android": {
+      "package": "whattheheckisthis"
+    }
+  },
+  "name": "whattheheckisthis",
+  "displayName": "whattheheckisthis"
 }

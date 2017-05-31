@@ -1,0 +1,4 @@
+#Thu May 25 16:20:13 HKT 2017
+base.0=/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
