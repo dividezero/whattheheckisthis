@@ -1,15 +1,17 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, Button, Alert, ActivityIndicator, NativeModules} from 'react-native';
+import {Text, View, StyleSheet, Button, Alert, NativeModules} from 'react-native';
 import Camera from 'react-native-camera';
 import ImageResizer from 'react-native-image-resizer';
+import Spinner from 'react-native-spinkit';
 
 export default class App extends React.Component {
     state = {
-        image: null,
         loading: false,
     };
 
     render() {
+        console.log('Starting app')
+
         return (
             <View style={styles.container}>
                 <Camera
@@ -18,22 +20,29 @@ export default class App extends React.Component {
                     }}
                     style={styles.preview}
                     aspect={Camera.constants.Aspect.fill}>
-                    <Text style={styles.capture} onPress={this.takePicture.bind(this)}>[CAPTURE]</Text>
+                    <View><Text>{this.state.loading}</Text></View>
+                    {
+                        (!this.state.loading)?
+                            <Text style={styles.capture} onPress={this.takePicture.bind(this)}/>
+                            : <View><Spinner style={styles.spinner} isVisible={true} size={70} type={'Bounce'} color={'white'}/></View>
+                    }
                 </Camera>
             </View>
         );
     }
 
     takePicture() {
-        if(!this.state.loading){
-            console.log('GO'+this.state.loading)
+        if (!this.state.loading) {
+            this.setState({
+                loading: true
+            });
+
+            console.log('hgjhghjg')
             const options = {};
             //options.location = ...
             this.camera.capture({metadata: options})
                 .then((data) => {
-                    this.setState({
-                        loading: true
-                    });
+
 
                     ImageResizer.createResizedImage(data.path, 800, 600, 'JPEG', 80).then((resizedImageUri) => {
                         // resizeImageUri is the URI of the new image that can now be displayed, uploaded...
@@ -86,8 +95,8 @@ export default class App extends React.Component {
 
                 })
                 .catch(err => console.error(err));
-        }else{
-            console.log('NO GO'+this.state.loading)
+        } else {
+            console.log('NO GO' + this.state.loading)
         }
     }
 }
@@ -105,7 +114,7 @@ function filterLabelsList(response, confidence = 0) {
 async function checkForLabels(base64) {
 
     return await
-        fetch('https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCcQKFyu6aaQRuuRTELO7WMy0m7WVLxIiY', {
+        fetch('https://vision.googleapis.com/v1/images:annotate?key=[key here]', {
             method: 'POST',
             body: JSON.stringify({
                 "requests": [
@@ -139,14 +148,27 @@ const styles = StyleSheet.create({
     capture: {
         flex: 0,
         backgroundColor: '#fff',
-        borderRadius: 5,
-        color: '#000',
+        borderRadius: 50,
         padding: 10,
-        margin: 40
+        margin: 50,
+        height: 70,
+        width: 70,
+        borderColor: 'rgba(0, 0, 0, 0.3)',
+        borderWidth: 15
     },
     loadingMsg: {
         position: 'absolute',
         top: '50%',
         left: '50%'
-    }
+    },
+    loadingText:{
+        fontSize:18,
+        padding: 5,
+        borderRadius: 20,
+        backgroundColor: 'white',
+        margin: 30
+    },
+    spinner: {
+        marginBottom: 50
+    },
 });
