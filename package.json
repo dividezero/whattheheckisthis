@@ -25,6 +25,7 @@
     "react-native": "^0.43.4",
     "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
     "react-native-image-resizer": "^0.1.1",
-    "react-native-image-to-base64": "^0.1.0"
+    "react-native-image-to-base64": "^0.1.0",
+    "react-native-spinkit": "^1.0.3"
   }
 }
