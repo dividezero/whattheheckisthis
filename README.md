@@ -46,10 +46,6 @@ You'd want to generate a signing key and build the apk like [here](https://faceb
 
 I'm open to reasonable pull requests to just play around with the application for fun
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
 * **Hazlan Rozaimi** - *Initial work* - [dividezero](https://github.com/dividezero)
