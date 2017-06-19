@@ -2,8 +2,8 @@
 
 React Native + Google Vision API mobile application to identify objects in pictures taken using the phone
 
-![before](http://i.imgur.com/vsiWUE3.png =250x)
-![after](http://i.imgur.com/5AWPFqL.png =250x)
+![before](http://i.imgur.com/vsiWUE3.png)
+![after](http://i.imgur.com/5AWPFqL.png)
 
 ## Getting Started
 
