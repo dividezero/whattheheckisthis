@@ -7,77 +7,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/drawee/R$attr.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/drawee/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/drawee/R$styleable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/drawee/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/drawee/backends/pipeline/R$attr.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/drawee/backends/pipeline/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/drawee/backends/pipeline/R$styleable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/drawee/backends/pipeline/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/fbui/textlayoutbuilder/R$styleable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/fbui/textlayoutbuilder/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$attr.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$id.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$style.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$styleable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/lwansbrough/RCTCamera/R$attr.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/lwansbrough/RCTCamera/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/lwansbrough/RCTCamera/R$id.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/lwansbrough/RCTCamera/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/lwansbrough/RCTCamera/R$style.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/lwansbrough/RCTCamera/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/lwansbrough/RCTCamera/R$styleable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/lwansbrough/RCTCamera/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/MainApplication$1.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/MainApplication$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/MainApplication.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/MainApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$attr.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$bool.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$color.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$dimen.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$drawable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$id.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$integer.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$layout.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$mipmap.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$string.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$style.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$styleable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$xml.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/whattheheckisthis/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/zip-cache/ki5rCKz9kPfNZCmGrShS94UxeuM=" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/zip-cache/ki5rCKz9kPfNZCmGrShS94UxeuM=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/debug_0a2e85b0fdf1590e27220ac46c7f1610bae594e1.jar" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/debug_0a2e85b0fdf1590e27220ac46c7f1610bae594e1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build.gradle" afterPath="$PROJECT_DIR$/android/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/facebook/drawee/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/facebook/drawee/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/facebook/drawee/backends/pipeline/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/facebook/drawee/backends/pipeline/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/facebook/fbui/textlayoutbuilder/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/facebook/fbui/textlayoutbuilder/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/facebook/react/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/facebook/react/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/lwansbrough/RCTCamera/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/lwansbrough/RCTCamera/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/whattheheckisthis/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/whattheheckisthis/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/android/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/src/main/java/com/whattheheckisthis/MainApplication.java" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/whattheheckisthis/MainApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build.gradle" afterPath="$PROJECT_DIR$/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/settings.gradle" afterPath="$PROJECT_DIR$/android/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/whattheheckisthis.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/whattheheckisthis.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,7 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5924318">
+    <splitter split-orientation="horizontal" split-proportion="0.47084367">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
@@ -104,8 +35,8 @@
           <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="496">
-                  <caret line="116" column="82" lean-forward="true" selection-start-line="116" selection-start-column="82" selection-end-line="116" selection-end-column="82" />
+                <state relative-caret-position="644">
+                  <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -162,6 +93,7 @@
                 <state relative-caret-position="435">
                   <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
                   <folding>
+                    <element signature="imports" expanded="false" />
                     <marker date="1497520098000" expanded="true" signature="980:1120" ph="{...}" />
                     <marker date="1497520098000" expanded="true" signature="980:1124" ph="{...}" />
                     <marker date="1497520098000" expanded="true" signature="1060:1120" ph="{...}" />
@@ -177,14 +109,25 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+                  <folding>
+                    <marker date="1497838181000" expanded="true" signature="580:642" ph="{&quot;react&quot;: &quot;16.0.0-alpha.6&quot;...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="43">
-                  <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                <state relative-caret-position="332">
+                  <caret line="138" column="21" lean-forward="true" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
-                    <element signature="e#1176#4175#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -195,16 +138,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="330">
                   <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lint-results-release-fatal.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/android/app/build/outputs/lint-results-release-fatal.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -229,6 +162,7 @@
       <find>state</find>
       <find>fileteredResult</find>
       <find>this.state.loading</find>
+      <find>checkForLabels</find>
     </findStrings>
     <replaceStrings>
       <replace>this.loading</replace>
@@ -762,7 +696,7 @@
       <workItem from="1496239091567" duration="510000" />
       <workItem from="1496808131952" duration="26000" />
       <workItem from="1496808267874" duration="619000" />
-      <workItem from="1497516690641" duration="3641000" />
+      <workItem from="1497516690641" duration="8488000" />
     </task>
     <task id="LOCAL-00001" summary="ejected from expo">
       <created>1495619556375</created>
@@ -792,11 +726,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496225949329</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="prettify button, loading spinner">
+      <created>1497520862248</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1497520862248</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22109000" />
+    <option name="totallyTimeSpent" value="26956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -810,9 +751,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905138" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22628458" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905138" sideWeight="0.5021299" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14164004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -834,13 +775,40 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ejected from expo" />
     <MESSAGE value="working cam with camera fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="working cam with camera fix" />
+    <MESSAGE value="prettify button, loading spinner" />
+    <option name="LAST_COMMIT_MESSAGE" value="prettify button, loading spinner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -864,7 +832,7 @@
         <state relative-caret-position="285">
           <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding>
-            <marker date="1497520074000" expanded="true" signature="580:642" ph="{&quot;react&quot;: &quot;16.0.0-alpha.6&quot;...}" />
+            <marker date="1497838181000" expanded="true" signature="580:642" ph="{&quot;react&quot;: &quot;16.0.0-alpha.6&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -917,6 +885,7 @@
         <state relative-caret-position="435">
           <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1497520098000" expanded="true" signature="980:1120" ph="{...}" />
             <marker date="1497520098000" expanded="true" signature="980:1124" ph="{...}" />
             <marker date="1497520098000" expanded="true" signature="1060:1120" ph="{...}" />
@@ -958,7 +927,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1497520074000" expanded="true" signature="580:642" ph="{&quot;react&quot;: &quot;16.0.0-alpha.6&quot;...}" />
+            <marker date="1497838181000" expanded="true" signature="580:642" ph="{&quot;react&quot;: &quot;16.0.0-alpha.6&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -1021,6 +990,7 @@
         <state relative-caret-position="435">
           <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1497520098000" expanded="true" signature="980:1120" ph="{...}" />
             <marker date="1497520098000" expanded="true" signature="980:1124" ph="{...}" />
             <marker date="1497520098000" expanded="true" signature="1060:1120" ph="{...}" />
@@ -1036,7 +1006,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1497520074000" expanded="true" signature="580:642" ph="{&quot;react&quot;: &quot;16.0.0-alpha.6&quot;...}" />
+            <marker date="1497838181000" expanded="true" signature="580:642" ph="{&quot;react&quot;: &quot;16.0.0-alpha.6&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -1099,6 +1069,7 @@
         <state relative-caret-position="675">
           <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1497520098000" expanded="true" signature="980:1120" ph="{...}" />
             <marker date="1497520098000" expanded="true" signature="980:1124" ph="{...}" />
             <marker date="1497520098000" expanded="true" signature="1060:1120" ph="{...}" />
@@ -1131,7 +1102,7 @@
         <state relative-caret-position="300">
           <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
           <folding>
-            <marker date="1497520074000" expanded="true" signature="580:642" ph="{&quot;react&quot;: &quot;16.0.0-alpha.6&quot;...}" />
+            <marker date="1497838181000" expanded="true" signature="580:642" ph="{&quot;react&quot;: &quot;16.0.0-alpha.6&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -1253,6 +1224,7 @@
         <state relative-caret-position="435">
           <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1497520098000" expanded="true" signature="980:1120" ph="{...}" />
             <marker date="1497520098000" expanded="true" signature="980:1124" ph="{...}" />
             <marker date="1497520098000" expanded="true" signature="1060:1120" ph="{...}" />
@@ -1287,16 +1259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <marker date="1497520074000" expanded="true" signature="580:642" ph="{&quot;react&quot;: &quot;16.0.0-alpha.6&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1305,10 +1267,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <marker date="1497838181000" expanded="true" signature="580:642" ph="{&quot;react&quot;: &quot;16.0.0-alpha.6&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="116" column="82" lean-forward="true" selection-start-line="116" selection-start-column="82" selection-end-line="116" selection-end-column="82" />
+        <state relative-caret-position="332">
+          <caret line="138" column="21" lean-forward="true" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
