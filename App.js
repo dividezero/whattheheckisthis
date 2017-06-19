@@ -10,7 +10,7 @@ export default class App extends React.Component {
     };
 
     render() {
-        console.log('Starting app')
+        console.log('Starting app');
 
         return (
             <View style={styles.container}>
@@ -22,9 +22,20 @@ export default class App extends React.Component {
                     aspect={Camera.constants.Aspect.fill}>
                     <View><Text>{this.state.loading}</Text></View>
                     {
-                        (!this.state.loading)?
-                            <Text style={styles.capture} onPress={this.takePicture.bind(this)}/>
-                            : <View><Spinner style={styles.spinner} isVisible={true} size={70} type={'Bounce'} color={'white'}/></View>
+                        (!this.state.loading) ?
+                            <Text
+                                style={styles.capture}
+                                onPress={this.takePicture.bind(this)}/>
+                            :
+                            <View>
+                                <Spinner
+                                    style={styles.spinner}
+                                    isVisible={true}
+                                    size={70}
+                                    type={'Bounce'}
+                                    color={'white'}/>
+                            </View>
+
                     }
                 </Camera>
             </View>
@@ -37,62 +48,28 @@ export default class App extends React.Component {
                 loading: true
             });
 
-            console.log('hgjhghjg')
             const options = {};
-            //options.location = ...
             this.camera.capture({metadata: options})
                 .then((data) => {
 
-
-                    ImageResizer.createResizedImage(data.path, 800, 600, 'JPEG', 80).then((resizedImageUri) => {
-                        // resizeImageUri is the URI of the new image that can now be displayed, uploaded...
+                    resizeImage(data.path, (resizedImageUri) => {
                         NativeModules.RNImageToBase64.getBase64String(resizedImageUri, async (err, base64) => {
                             // Do something with the base64 string
                             if (err) {
-                                console.log('err')
-                                console.log(err)
+                                console.error(err)
                             }
-                            console.log('base6a42');
+                            console.log('converted to base64');
                             let result = await checkForLabels(base64);
-                            console.log(result)
+
+                            //custom filter
                             let filteredResult = filterLabelsList(result.responses[0], 0.3);
-
-                            let labelString = '';
-                            let count = 1;
-                            if (filteredResult.length > 1) {
-                                labelString = '... or it might be ';
-                                filteredResult.forEach((resLabel) => {
-                                    if (count == filteredResult.length) {
-                                        labelString += 'a ' + resLabel.description + '! I\'m pretty sure! Maybe.'
-                                    } else if (count == 1) {
-
-                                    } else {
-                                        labelString += 'a ' + resLabel.description + ' or '
-                                    }
-                                    count++;
-                                });
-
-                                Alert.alert(
-                                    'Its a ' + result.responses[0].labelAnnotations[0].description + '!',
-                                    labelString
-                                );
-                            } else {
-                                Alert.alert(
-                                    'Its a ' + result.responses[0].labelAnnotations[0].description + '!'
-                                );
-                            }
+                            displayResult(filteredResult);
 
                             this.setState({
                                 loading: false
                             });
                         })
-
-                    }).catch((err) => {
-                        // Oops, something went wrong. Check that the filename is correct and
-                        // inspect err to get more details.
-                        console.error(err)
-                    });
-
+                    })
                 })
                 .catch(err => console.error(err));
         } else {
@@ -101,20 +78,61 @@ export default class App extends React.Component {
     }
 }
 
-function filterLabelsList(response, confidence = 0) {
+function displayResult(filteredResult) {
+    let labelString = '';
+    let count = 1;
+    if (filteredResult.length > 1) {
+        labelString = '... or it might be ';
+        filteredResult.forEach((resLabel) => {
+            if (count == filteredResult.length) {
+                labelString += 'a ' + resLabel.description + '! I\'m pretty sure! Maybe.'
+            } else if (count == 1) {
+
+            } else {
+                labelString += 'a ' + resLabel.description + ' or '
+            }
+            count++;
+        });
+
+        Alert.alert(
+            'Its a ' + filteredResult[0].description + '!',
+            labelString
+        );
+    } else {
+        Alert.alert(
+            'Its a ' + filteredResult[0].description + '!'
+        );
+    }
+}
+
+// according to https://cloud.google.com/vision/docs/supported-files, recommended image size for labels detection is 640x480
+function resizeImage(path, callback, width = 640, height = 480) {
+    ImageResizer.createResizedImage(path, width, height, 'JPEG', 80).then((resizedImageUri) => {
+        // resizeImageUri is the URI of the new image that can now be displayed, uploaded...
+        callback(resizedImageUri);
+
+    }).catch((err) => {
+        // Oops, something went wrong. Check that the filename is correct and inspect err to get more details.
+        console.error(err)
+    });
+}
+
+//run filter for frontend side logic (filter for hotdog, if you wanna do a "is hotdog or not" app)
+function filterLabelsList(response, minConfidence = 0) {
     let resultArr = [];
     response.labelAnnotations.forEach((label) => {
-        if (label.score > confidence) {
+        if (label.score > minConfidence) {
             resultArr.push(label);
         }
     });
     return resultArr;
 }
 
+// API call to google cloud
 async function checkForLabels(base64) {
 
     return await
-        fetch('https://vision.googleapis.com/v1/images:annotate?key=[key here]', {
+        fetch('https://vision.googleapis.com/v1/images:annotate?key=[API key here]', {
             method: 'POST',
             body: JSON.stringify({
                 "requests": [
@@ -132,6 +150,9 @@ async function checkForLabels(base64) {
             })
         }).then((response) => {
             return response.json();
+        }, (err) => {
+            console.error('promise rejected')
+            console.error(err)
         });
 }
 
@@ -161,8 +182,8 @@ const styles = StyleSheet.create({
         top: '50%',
         left: '50%'
     },
-    loadingText:{
-        fontSize:18,
+    loadingText: {
+        fontSize: 18,
         padding: 5,
         borderRadius: 20,
         backgroundColor: 'white',
