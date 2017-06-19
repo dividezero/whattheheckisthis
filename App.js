@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, Button, Alert, NativeModules} from 'react-native';
+import {Text, View, StyleSheet, Alert, NativeModules, ToastAndroid} from 'react-native';
 import Camera from 'react-native-camera';
 import ImageResizer from 'react-native-image-resizer';
 import Spinner from 'react-native-spinkit';
@@ -19,13 +19,14 @@ export default class App extends React.Component {
                         this.camera = cam;
                     }}
                     style={styles.preview}
-                    aspect={Camera.constants.Aspect.fill}>
+                    aspect={Camera.constants.Aspect.fill}
+                    playSoundOnCapture={false}>
                     <View><Text>{this.state.loading}</Text></View>
                     {
                         (!this.state.loading) ?
-                            <Text
-                                style={styles.capture}
-                                onPress={this.takePicture.bind(this)}/>
+                                <Text
+                                    style={styles.capture}
+                                    onPress={this.takePicture.bind(this)}/>
                             :
                             <View>
                                 <Spinner
@@ -59,7 +60,11 @@ export default class App extends React.Component {
                                 console.error(err)
                             }
                             console.log('converted to base64');
+                            // ToastAndroid.show('converted to base64', ToastAndroid.SHORT);
+
                             let result = await checkForLabels(base64);
+                            console.log(result);
+                            // ToastAndroid.show(JSON.stringify(result), ToastAndroid.SHORT);
 
                             //custom filter
                             let filteredResult = filterLabelsList(result.responses[0], 0.3);
@@ -108,11 +113,9 @@ function displayResult(filteredResult) {
 // according to https://cloud.google.com/vision/docs/supported-files, recommended image size for labels detection is 640x480
 function resizeImage(path, callback, width = 640, height = 480) {
     ImageResizer.createResizedImage(path, width, height, 'JPEG', 80).then((resizedImageUri) => {
-        // resizeImageUri is the URI of the new image that can now be displayed, uploaded...
         callback(resizedImageUri);
 
     }).catch((err) => {
-        // Oops, something went wrong. Check that the filename is correct and inspect err to get more details.
         console.error(err)
     });
 }
@@ -132,7 +135,7 @@ function filterLabelsList(response, minConfidence = 0) {
 async function checkForLabels(base64) {
 
     return await
-        fetch('https://vision.googleapis.com/v1/images:annotate?key=[API key here]', {
+        fetch('https://vision.googleapis.com/v1/images:annotate?key=[API key Here]', {
             method: 'POST',
             body: JSON.stringify({
                 "requests": [

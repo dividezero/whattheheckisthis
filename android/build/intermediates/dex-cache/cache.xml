@@ -259,7 +259,7 @@
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="66cd78e49857db01469aaa1a28d274c9aa424bf5">
+        sha1="981235c69c4e2cecde2d943078619379d95d15f1">
         <dex dex="/Users/hazlan/Source/experiments/whattheheckisthis/android/app/build/intermediates/pre-dexed/debug/whattheheckisthis-react-native-camera-unspecified_549742f1a141e0b29839fae5024c8c3972f11bd3.jar" />
     </item>
     <item
