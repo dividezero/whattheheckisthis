@@ -1,8 +1,13 @@
 # Whattheheckisthis
 
-React Native + Google Vision API mobile application to identify objects in pictures taken using the phone
+React Native + Google Vision API mobile application to identify objects in pictures taken using an android phone. Technically could also be compiled into an ios app but needs testing.
 
-![before](http://i.imgur.com/WsRgp1t.png)
+I wrote about it at [hazlanrozaimi.com](http://www.hazlanrozaimi.com/2017/07/building-an-image-recognition-mobile-app/)
+
+## Screenshots
+![coffee](https://i.imgur.com/5MTzEz1.png)
+
+![pepsi](http://i.imgur.com/WsRgp1t.png)
 
 ## Getting Started
 
@@ -10,9 +15,9 @@ First, install dependencies by running
 ```
 npm install
 ```
-Get an API key for Google Cloud Vision [here](https://console.cloud.google.com/apis/credentials), then replace it here in app.js line 136
+Get an API key for Google Cloud Vision [here](https://console.cloud.google.com/apis/credentials), then replace it in config.js
 ```
-fetch('https://vision.googleapis.com/v1/images:annotate?key=[API key here]', {
+"apiKey": "please_enter_your_api_key_here"
 ```
 
 To run in debug mode (youd need to connect an actual android device that can be found with adb)
@@ -22,7 +27,7 @@ react-native run-android
 
 ### Prerequisites
 
-Youd need 
+You'd need 
 * Android SDK (Easiest to download everything with [Android Studio](https://developer.android.com/studio/index.html)) 
 * npm or yarn
 * Your own Google Cloud Vision Api key. Get one [here](https://console.cloud.google.com/apis/credentials)

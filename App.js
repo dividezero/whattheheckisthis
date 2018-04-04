@@ -3,6 +3,7 @@ import {Text, View, StyleSheet, Alert, NativeModules, ToastAndroid} from 'react-
 import Camera from 'react-native-camera';
 import ImageResizer from 'react-native-image-resizer';
 import Spinner from 'react-native-spinkit';
+import config from './config';
 
 export default class App extends React.Component {
     state = {
@@ -11,6 +12,7 @@ export default class App extends React.Component {
 
     render() {
         console.log('Starting app');
+        console.log('config', config);
 
         return (
             <View style={styles.container}>
@@ -135,7 +137,7 @@ function filterLabelsList(response, minConfidence = 0) {
 async function checkForLabels(base64) {
 
     return await
-        fetch('https://vision.googleapis.com/v1/images:annotate?key=[API key Here]', {
+        fetch(config.googleCloud.api + config.googleCloud.apiKey, {
             method: 'POST',
             body: JSON.stringify({
                 "requests": [
