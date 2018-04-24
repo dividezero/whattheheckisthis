@@ -15,7 +15,7 @@ First, install dependencies by running
 ```
 npm install
 ```
-Get an API key for Google Cloud Vision [here](https://console.cloud.google.com/apis/credentials), then replace it in config.js
+Get an API key for Google Cloud Vision [here](https://console.cloud.google.com/apis/credentials), then replace it in config.json
 ```
 "apiKey": "please_enter_your_api_key_here"
 ```
