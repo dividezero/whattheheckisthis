@@ -1,8 +1,6 @@
-# Whattheheckisthis
+#SAL
 
 React Native + Google Vision API mobile application to identify objects in pictures taken using an android phone. Technically could also be compiled into an ios app but needs testing.
-
-I wrote about it at [hazlanrozaimi.com](http://www.hazlanrozaimi.com/2017/07/building-an-image-recognition-mobile-app/)
 
 ## Screenshots
 ![coffee](https://i.imgur.com/5MTzEz1.png)
@@ -53,7 +51,7 @@ I'm open to reasonable pull requests to just play around with the application fo
 
 ## Authors
 
-* **Hazlan Rozaimi** - *Initial work* - [dividezero](https://github.com/dividezero)
+* **SAL** - *Initial work* 
 
 
 ## License
